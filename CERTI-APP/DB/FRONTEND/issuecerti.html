@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issue Certificate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+        <script>
+              async  function issuecerti(event){
+                    event.preventDefault()
+
+
+                    const course=document.getElementById('certicourse').value 
+                    const cid=document.getElementById('cid').value 
+                    const cname=document.getElementById('cname').value 
+                    const grade=document.getElementById('grade').value
+                    const issuedt=document.getElementById('issuedt').value
+
+                    console.log(course,cid,cname,grade,issuedt);
+
+                    const courseData = {Coursename: course,CandidateName: cname,Grade: grade,IssueDate: issuedt};
+                     localStorage.setItem(cid, JSON.stringify(courseData));
+
+                     try {
+                        const response=await fetch("http://127.0.0.1:5000/issuecerti",{
+                            method:'POST',
+                            credentials:'include',
+                            headers:{ "Content-Type": 'application/json' },
+                            body:JSON.stringify({
+                                Course:course,
+                                Certiid:cid,
+                                Name:cname,
+                                Grade:grade,
+                                Issuedt:issuedt
+                            })
+                        })
+                        const data=await response.json()
+                        console.log(data)
+
+                        if(response.status==400){
+                            alert("Invalid Credential")
+                        }else{
+                            alert("Certificate issued!!")
+                            window.location.href="./front.html"
+
+                        }                        
+                     } catch (error) {
+                        console.log(error)
+                        alert("Internal Server Error!!")                        
+                     }
+             }
+        </script>
+
+
+
+</head>
+<body> 
+    <div >
+        <nav class="flex float-right mt-4 ">
+          <a href="front.html" class="border border-slate-950 w-24 h-10 mr-10 text-xl   text-center bg-blue-600"><p class=" mt-1 text-white ">Home</p></a>
+         <a href="issuecertificate.html" class="mr-32 text-xl mt-2">Issue Certificate</a> 
+        </nav>
+     </div>
+     <div class="mt-0 text-white ">Certificate Dapp</div> 
+     <div class="mt-8 text-2xl ml-12 font-bold  ">Certificate Dapp</div> 
+
+     <form action="" onsubmit="issuecerti(event)">
+        <div class="bg-blue-100  indent-0 w-[600px] max-h-screen mt-12 mx-auto  rounded-lg shadow-xl shadow-indigo-400">
+            <div class=" pl-4 ">
+                <p class="mt-14 pt-6 pl-1 text-2xl ">Issue New Certificate</p>
+                <div class="mt-4" >Select Course*</div>
+                <div class="mt-2">
+                    <select class="h-9 w-11/12" required id="certicourse">
+                        <option value="Certified Blockchain Associate" > Certified Blockchain Associate</option>
+                       
+                    </select>
+                </div>
+                <div class="mt-4">Certificate ID*</div>
+                <div class="mt-2"><input id="cid" class="h-9 w-11/12" required type="text" placeholder="Certificate ID"></div>
+                <div class="mt-4">Candidate Name*</div>
+                <div class="mt-2"><input id="cname" class="h-9 w-11/12" required type="text" placeholder="Name"></div>
+                <div class="mt-4">Select Grade*</div>
+                <div class="mt-2">
+                    <select class="h-9 w-11/12" required name="" id="grade">
+                        <option value="S">Select</option>
+                        <option value="S">S</option>
+                        <option value="S">A+</option>
+                        <option value="S">B+</option>
+                        <option value="S">C+</option>
+                        <option value="S">D+</option>
+                    </select>
+        
+                </div>
+                <div class="mt-4">Issue Date*</div>
+                <div class="mt-2"><input id="issuedt" class="h-9 w-11/12"  required type="date"></div>
+        
+                <div class="mt-4">
+                    <button class="h-9 w-32  bg-cyan-400">issue Certificate</button> 
+                    <div class="mt-0 text-purple-100">Certificate Dapp</div> 
+                    <br>
+                    
+                </div>
+        </div>
+         
+    
+         </div>
+     </form>
+
+
+</body>
+</html>

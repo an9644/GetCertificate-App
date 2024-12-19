@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>CERTIAPP HOME</title>
+
+    <script>
+      window.onload=async()=>{
+            try{
+            
+           const response=await fetch("http://127.0.0.1:5000/viewuser",{
+            method:'GET',
+           credentials: 'include', 
+            });          
+           
+           const data =await response.json();
+           
+           if(data.user=='admin'){
+            
+            document.getElementById("admin").style.display='block';
+            
+           }}
+           catch(error){
+            console.log(error);}
+           }
+      function searchcerti(event) {
+        event.preventDefault()
+        const Cid = document.getElementById('searchid').value.trim();
+        if (Cid !== '') {
+          // Store certiId in local storage
+          localStorage.setItem('certi', Cid);           
+          // Redirect to viewcerti page
+          window.location.href = './viewcerti.html';
+          
+        } else {
+          alert('Please enter a certificate ID');
+        }
+        async function logout(){
+
+      try {
+          const responce= await fetch("http://127.0.0.1:5000/logout",{
+      method:'POST',
+      credentials: 'include', 
+      });
+      if(responce.ok){
+          localStorage.removeItem('authToken');
+          console.log('logout successfully');
+          window.location.href="./signup.html"
+          alert("Logout Successfullly!")
+
+      }else{
+          console.log('logout failed');
+      }
+
+      } catch (error) {
+          console.error('Logout failed:', error);
+      }          
+      }
+      }
+    
+    </script>
+    
+   
+</head>
+<body class="bg-blue-100">
+    <div class=" grid grid-cols-2" >
+      <div class="mt-4 ml-4 text-xl">
+        <a href="login.html" onclick="logout()">LogOut</a>
+      </div>
+        <div class="flex justify-end mt-4">    
+           <a href="front.html" class="border border-slate-950 w-24 h-10 mr-10 text-xl   text-center bg-blue-600"><p class=" mt-1 text-white ">Home</p></a>
+            <a href="issuecerti.html"  style="display:none" id="admin"  class="mr-32 text-xl mt-2">Issue Certificate</a> 
+        </div>
+        </div>
+        
+        <div class="mt-0 text-blue-100 ">Certificate Dapp</div> 
+         <div class="mt-24 text-center text-4xl font-bold ">Certificate Dapp</div> 
+              <div class="flex justify-center mt-12"><img src="certi.png" width="180" height="180" alt=""></div> 
+            </div>
+            <div class="flex justify-center mt-10 ml-7 "><input id="searchid" class="border border-cyan-400" type="text" placeholder="Enter certificate ID To View"> &nbsp;
+              <button class="bg-cyan-400 w-24 h-8" onclick="searchcerti(event)">Search</button>
+            <!-- <input class="bg-cyan-400 w-24 h-8" type="button" value="Search"></div> -->
+              
+</body>
+</html>

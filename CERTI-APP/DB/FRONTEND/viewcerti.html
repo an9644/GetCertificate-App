@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate View</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    window.onload = async () => {
+    const certi = localStorage.getItem("certi");
+
+    if (!certi) {
+      alert("No certificate ID found. Please try again.");
+      window.location.href = 'front.html';
+      return;
+    }
+
+    // Assuming certificate data is stored in local storage with key equal to Cid
+    const data = JSON.parse(localStorage.getItem(certi));
+
+    if (!data) {
+      alert("Certificate data not found. Please try again.");
+      window.location.href = 'front.html';
+      return;
+    }
+
+    document.getElementById("name").textContent = data.CandidateName;
+    document.getElementById("grade").textContent = data.Grade;
+    document.getElementById("course").textContent = data.Coursename;
+    document.getElementById("issuedt").textContent = data.IssueDate;
+
+  };
+    
+  </script>
+
+</head>
+<body class="bg-blue-100">
+  <header>
+    <h1 class="mt-44 text-2xl font-semibold text-center">Kerala Blockchain Academy</h1>
+  </header>
+  <div class="text-center">
+    <img src="certi.png" width="150" height="150" alt="Certificate Logo" class="mt-8 ml-[850px] flex justify-center">
+    <p class="mt-4">
+      This is to certify that <b id="name"></b>
+    </p>
+    <p class="mt-4">
+      has successfully completed <b id="course"></b>
+    </p>
+    <p class="mt-4">
+      with <b id="grade"></b> on <b id="issuedt"></b>
+    </p>
+    <a href="front.html" class="mt-12">Back to home page</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,155 @@
+.body1{
+    background-color: rgb(231, 164, 228);
+}
+.certi1{
+    margin-left: -30px;
+    margin-top: -40px;
+}
+.certi1 nav li {
+    display: flex;
+       float: right;
+       position: fi;
+       margin-top: 30px;
+}
+.certi1 li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-size: 20px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.certi3{
+    margin-left: 10px;
+    margin-top: 20px;
+    
+}
+.certi33{
+    margin-top: -160px;
+    position: fixed;
+   padding-left:90%;
+
+
+}
+.certi2 h1{ 
+    margin-top: 90px;
+    text-align:center ;
+}
+.certi2 img{
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+}
+.certi2 {
+    position: absolute; /* Position the div absolutely */
+    left: 50%; /* Move the div 50% from the left */
+    transform: translateX(-50%); /* Move the div 50% to the left to center it */
+    text-align: center; /* Center the inputs */
+}
+
+.certi2 input {
+    margin: 300px 10px; /* Add some space between inputs */
+}
+
+.certi2 input[type="button"] {
+    background-color: rgb(11, 54, 245);
+    color: white;
+}
+/*issue Certificate*/
+.issue{
+    align-items: center;
+    width: 1200px;
+    height: 700px;
+    background-color: rgb(194, 125, 194);
+    margin: 100px 500px 100px 350px;
+    border-radius: 20px;
+
+}.issue1 {
+    margin-top: 40px;
+}
+.issue1 h3{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(169, 100, 190);
+    margin-top: 30px;
+}
+ .h3{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 15px;
+ }
+/* .issue2{
+    padding-left: 40px;
+}
+.issue2 input{
+    width: 400px;
+    height: 25px;
+    margin-top: 10px;
+}
+.issue2 option{
+    width: 500px;
+    height: 40px;
+    margin-top: 10px;
+} */
+.issue2 {
+    padding-left: 40px;
+}
+
+.issue2 input, .issue2 select {
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.issue2 label {
+    display: block;
+    margin-top: 10px;
+    font-size: larger;
+}
+.issue4 input{
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: rgb(189, 115, 231);
+    color: black;
+}
+.issue4 a{
+    margin-left: 20px;
+}
+/* view certificate */
+ .view{
+    width: 1500px;
+    height: 700px;
+    background-color: white;
+    margin: 180px 650px 250px 180px;
+    border-radius: 20px;
+ }
+
+ /* .view1{
+    /* margin: 220px 900px 300px 300px; 
+    border: 1px solid black;
+    margin-top: 200px;
+    margin-left: 80px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    padding: 300px 900px 300px 250px;}*/
+
+ 
+ .view1 h1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 80px;   
+ }
+ .view1 img{
+    width: 150px;
+    height: 150px;
+    padding-left:665px ;
+    margin-top: 50px;
+ }
+ .view1 p{
+    margin-top: 50px;
+    text-align: center;
+    justify-content: space-between;
+ }
