@@ -21,38 +21,37 @@ To get started with the *Get Certificate App*, follow these steps:
 
  🚀 Setting Up the Repository
 
-1. Clone the repository
-   ```bash
-   git clone https://github.com/yourusername/TableReservation.git
-    ```
-
- 🔧 Running Setup
+   1. Clone the repository
+      ```bash
+      git clone https://github.com/yourusername/TableReservation.git
+      ```
+🔧 Running Setup
  
- * In first terminal,
-
-1. Install dependencies in server(backend) folder:
-  ``` bash
-   npm install
-   ```
-
-2. Start the backend application
-  ``` bash
-   npm run dev
-```
- 
-  *In second terminal
-     
-1. Install dependencies in ui(frontend) folder:
-   ```bash
-   npm install
-   ```
+    * In first terminal,
    
-2. Start the frontend application
-  ``` bash
-   npm run dev
-```
-
+   1. Install dependencies in server(backend) folder:
+      ``` bash
+      npm install
+      ```
    
+   2. Start the backend application
+      ``` bash
+      npm run dev
+      ```
+    
+     *In second terminal
+        
+   1. Install dependencies in ui(frontend) folder:
+      ```bash
+      npm install
+      ```
+      
+   2. Start the frontend application
+      ``` bash
+      npm run dev
+      ```
+   
+      
  🔑 Key Features
 
 - *Student Registration*: Student can easily signup and login,User can search their result using their id.
