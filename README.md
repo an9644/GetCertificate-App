@@ -1,62 +1,63 @@
-Blockchain Courses
-Welcome to the Blockchain Courses website! This platform offers a range of educational resources for learning about blockchain technology and its applications.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Certificate App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Get Certificate App</h1>
+    <p>Get Certificate App is a result-getting app. In this app, users will get their exam results that were uploaded by the admin.</p>
 
-Table of Contents
-Project Overview
-Features
-Installation
-Usage
-Contact
-Project Overview
-This project is a web application designed to showcase various blockchain-related courses. It provides a user-friendly interface for browsing courses, viewing details, and adding courses to a cart. Built using the MERN stack (MongoDB, Express, React, Node.js), the site aims to deliver a smooth and engaging experience for users.
+    <h2 id="objective">Objective</h2>
+    <p>The objective of this project is to provide a platform for students to easily access their exam results and for admins to manage certificate issuance efficiently.</p>
 
-Features
-Course Listings: Browse available blockchain courses.
-Course Details: View detailed information about each course, including descriptions, prerequisites, and features.
-Edit and Remove: Admins can edit or remove courses.
-Installation
-Prerequisites
-Before you begin, ensure you have the following software installed:
+    <h2 id="built-with">Built With</h2>
+    <ul>
+        <li>Frontend: HTML, Tailwind, JavaScript, React, CSS</li>
+        <li>Backend: Node.js, Express.js, MongoDB, Mongoose</li>
+    </ul>
 
-Node.js: Version 14 or higher
-npm: Node Package Manager (usually comes with Node.js)
-MongoDB: For the database
-Express JS: For backend
-Clone the Repository
-Clone the repository from GitHub:
+    <h2 id="file-structure">File Structure</h2>
+    <ul>
+        <li><code>server</code>: Backend server configuration and models.</li>
+        <li><code>ui</code>: Frontend user interface files for a seamless user experience.</li>
+    </ul>
 
-git clone [https://github.com/yourusername/blockchain-courses.git](https://github.com/Neethu-Muthu/KBA_COURSES_MERN_WITH_CSS.git)
-cd KBA_COURSES_MERN_WITH_CSS
-Backend Setup
-Navigate to the backend directory:
+    <h2 id="getting-started">Getting Started</h2>
+    <h3 id="setting-up-the-repository">Setting Up the Repository</h3>
+    <ol>
+        <li>Clone the repository:
+            <pre><code>git clone https://github.com/yourusername/GetCertificateApp.git</code></pre>
+        </li>
+    </ol>
 
-cd server
-Install backend dependencies:
+    <h3 id="running-setup">Running Setup</h3>
+    <h4 id="backend">Backend</h4>
+    <ol>
+        <li>Install dependencies in the server (backend) folder:
+            <pre><code>npm install</code></pre>
+        </li>
+        <li>Start the backend application:
+            <pre><code>npm run dev</code></pre>
+        </li>
+    </ol>
 
-npm install
-Set up environment variables:
+    <h4 id="frontend">Frontend</h4>
+    <ol>
+        <li>Install dependencies in the ui (frontend) folder:
+            <pre><code>npm install</code></pre>
+        </li>
+        <li>Start the frontend application:
+            <pre><code>npm run dev</code></pre>
+        </li>
+    </ol>
 
-Replace your_mongodb_connection_string with your MongoDB connection string, and your_jwt_secret with a secret key for JWT authentication.
-
-Run the backend server:
-
-node app.js
-The backend server will start on http://localhost:5000.
-
-Frontend Setup
-Navigate to the frontend directory:
-
-cd ../ui
-Install frontend dependencies:
-
-npm install
-Run the frontend development server:
-
-npm run dev
-The frontend application will run on http://localhost:5173.
-
-Database Setup
-Ensure MongoDB is running on your machine. If you're using MongoDB Atlas, ensure that your connection string is correctly set in the .env file. For a local MongoDB installation, you can start MongoDB with:
-
-sudo systemctl start mongod
-Make sure to replace placeholders like yourusername, your_mongodb_connection_string, and your_jwt_secret with the actual values relevant to your project.
+    <h2 id="key-features">Key Features</h2>
+    <ul>
+        <li><strong>Student Registration</strong>: Students can easily sign up and log in. Users can search for their results using their ID.</li>
+        <li><strong>Admin Management</strong>: Admins can issue certificates with user details.</li>
+    </ul>
+</body>
+</html>
