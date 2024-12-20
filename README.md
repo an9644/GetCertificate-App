@@ -22,8 +22,9 @@ To get started with the *Get Certificate App*, follow these steps:
  🚀 Setting Up the Repository
 
 1. Clone the repository
-   bash
+   ```bash
    git clone https://github.com/yourusername/TableReservation.git
+    ```
 
  🔧 Running Setup
  
