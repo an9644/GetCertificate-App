@@ -1,5 +1,5 @@
-# 💫 About Me:
-🏅Get Certificate App<br><br>Get Certificate App is result getting App. In this app User will get their Exam result that was uploaded by admin.<br><br> 🎯 Objective<br><br>The objective of this project is to simplify restaurant table reservations by providing an intuitive and efficient platform. Customers can reserve tables, specify the number of people, and provide additional suggestions, while restaurant admins can manage reservations seamlessly.<br><br> 🛠️ Built With<br>    -*Frontend* : HTML, Tailwind, JavaScript, React, CSS<br>    -*Backend* : Node.js, Express.js, MongoDB, Mongoose<br> <br>✨File Structure<br><br>  - *server*: Backend server configuration and models .<br>  - *ui*: Frontend user interface files for a seamless reservation experience.<br>
+# 💫🏅 Get Certificate App:
+<br><br>Get Certificate App is result getting App. In this app User will get their Exam result that was uploaded by admin.<br><br> 🎯 Objective<br><br>The objective of this project is to simplify restaurant table reservations by providing an intuitive and efficient platform. Customers can reserve tables, specify the number of people, and provide additional suggestions, while restaurant admins can manage reservations seamlessly.<br><br> 🛠️ Built With<br>    -*Frontend* : HTML, Tailwind, JavaScript, React, CSS<br>    -*Backend* : Node.js, Express.js, MongoDB, Mongoose<br> <br>✨File Structure<br><br>  - *server*: Backend server configuration and models .<br>  - *ui*: Frontend user interface files for a seamless reservation experience.<br>
 
 
 # 💻 Tech Stack:
@@ -9,10 +9,7 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=an9644&theme=dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=an9644&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
----
-[![](https://visitcount.itsvg.in/api?id=an9644&icon=1&color=9)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
 ⚙️ Getting Started
 
@@ -49,7 +46,7 @@ To get started with the *Get Certificate App*, follow these steps:
       ``` bash
       npm run dev
       ```
-   
+   ---
       
  🔑 Key Features
 
