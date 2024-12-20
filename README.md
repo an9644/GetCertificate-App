@@ -18,6 +18,7 @@ To get started with the *Get Certificate App*, follow these steps:
  🚀 Setting Up the Repository
 
    1. Clone the repository
+      
       ```bash
       git clone https://github.com/yourusername/TableReservation.git
       ```
@@ -26,11 +27,13 @@ To get started with the *Get Certificate App*, follow these steps:
    * In first terminal,
    
    1. Install dependencies in server(backend) folder:
+      
       ``` bash
       npm install
       ```
    
-   2. Start the backend application
+   3. Start the backend application
+      
       ``` bash
       npm run dev
       ```
@@ -38,11 +41,13 @@ To get started with the *Get Certificate App*, follow these steps:
    *In second terminal
         
    1. Install dependencies in ui(frontend) folder:
+      
       ```bash
       npm install
       ```
       
-   2. Start the frontend application
+   3. Start the frontend application
+      
       ``` bash
       npm run dev
       ```
