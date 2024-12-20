@@ -1,19 +1,18 @@
-🏅Get Certificate App
+# 💫 About Me:
+🏅Get Certificate App<br><br>Get Certificate App is result getting App. In this app User will get their Exam result that was uploaded by admin.<br><br> 🎯 Objective<br><br>The objective of this project is to simplify restaurant table reservations by providing an intuitive and efficient platform. Customers can reserve tables, specify the number of people, and provide additional suggestions, while restaurant admins can manage reservations seamlessly.<br><br> 🛠️ Built With<br>    -*Frontend* : HTML, Tailwind, JavaScript, React, CSS<br>    -*Backend* : Node.js, Express.js, MongoDB, Mongoose<br> <br>✨File Structure<br><br>  - *server*: Backend server configuration and models .<br>  - *ui*: Frontend user interface files for a seamless reservation experience.<br>
 
-Get Certificate App is result getting App. In this app User will get their Exam result that was uploaded by admin.
 
- 🎯 Objective
+# 💻 Tech Stack:
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=an9644&theme=dark&hide_border=true&include_all_commits=false&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=an9644&theme=dark&hide_border=true)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=an9644&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
-The objective of this project is to simplify restaurant table reservations by providing an intuitive and efficient platform. Customers can reserve tables, specify the number of people, and provide additional suggestions, while restaurant admins can manage reservations seamlessly.
+---
+[![](https://visitcount.itsvg.in/api?id=an9644&icon=1&color=9)](https://visitcount.itsvg.in)
 
- 🛠️ Built With
-    -*Frontend* : HTML, Tailwind, JavaScript, React, CSS
-    -*Backend* : Node.js, Express.js, MongoDB, Mongoose
- 
-✨File Structure
-
-  - *server*: Backend server configuration and models .
-  - *ui*: Frontend user interface files for a seamless reservation experience.
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
 ⚙️ Getting Started
 
