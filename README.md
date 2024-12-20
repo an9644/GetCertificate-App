@@ -55,6 +55,6 @@ To get started with the *Get Certificate App*, follow these steps:
       
  🔑 Key Features
  
--*Result Retrieval*: Students can easily search and retrieve their results using their ID.
--*Certificate Issuance*: Admins can issue certificates with student details.
--*User Management*: Students can sign up and log in to access their results.
+-*Result Retrieval*: Students can easily search and retrieve their results using their ID. <br>
+-*Certificate Issuance*: Admins can issue certificates with student details.<br>
+-*User Management*: Students can sign up and log in to access their results.<br>
