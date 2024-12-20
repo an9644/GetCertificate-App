@@ -1,5 +1,5 @@
 # 💫🏅 Get Certificate App:
-<br><br>Get Certificate App is result getting App. In this app User will get their Exam result that was uploaded by admin.<br><br> 🎯 Objective<br><br>The objective of this project is to simplify restaurant table reservations by providing an intuitive and efficient platform. Customers can reserve tables, specify the number of people, and provide additional suggestions, while restaurant admins can manage reservations seamlessly.<br><br> 🛠️ Built With<br>    -*Frontend* : HTML, Tailwind, JavaScript, React, CSS<br>    -*Backend* : Node.js, Express.js, MongoDB, Mongoose<br> <br>✨File Structure<br><br>  - *server*: Backend server configuration and models .<br>  - *ui*: Frontend user interface files for a seamless reservation experience.<br>
+<br><br>Get Certificate App is result getting App. In this app User will get their Exam result that was uploaded by admin.<br><br> 🎯 Objective<br><br>In this project they use latest technologies and they make the project more esiar .<br><br> 🛠️ Built With<br>    -*Frontend* : HTML, Tailwind, JavaScript, React, CSS<br>    -*Backend* : Node.js, Express.js, MongoDB, Mongoose<br> <br>✨File Structure<br><br>  - *server*: Backend server configuration and models .<br>  - *ui*: Frontend user interface files for a seamless reservation experience.<br>
 
 
 # 💻 Tech Stack:
