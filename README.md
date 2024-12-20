@@ -31,22 +31,26 @@ To get started with the *Get Certificate App*, follow these steps:
  * In first terminal,
 
 1. Install dependencies in server(backend) folder:
-   bash
+  ``` bash
    npm install
+   ```
 
 2. Start the backend application
-   bash
+  ``` bash
    npm run dev
-
+```
+ 
   *In second terminal
      
 1. Install dependencies in ui(frontend) folder:
-   bash
+   ```bash
    npm install
+   ```
    
 2. Start the frontend application
-   bash
-   npm run dev    
+  ``` bash
+   npm run dev
+```
 
    
  🔑 Key Features
